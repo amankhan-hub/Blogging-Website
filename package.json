@@ -1,0 +1,24 @@
+{
+  "name": "Blogging-Website",
+  "version": "1.0.0",
+  "description": "This is my project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
+  },
+  "keywords": ["web", "project", "node"],
+  "author": "Aman Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "htmlhint": "^1.1.14",
+    "stylelint": "^14.16.1"
+  }
+}
+
